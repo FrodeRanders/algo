@@ -4,7 +4,7 @@ algo
 A general content management core that makes it easy to model any 'thing' (algo in Spanish)
 
 
-# Description of the versioning system.
+## Description of the versioning system.
 
 The version list is kept such that the 'effective version' always
 comes first in the list and the arrangements of maintaining the
