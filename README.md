@@ -40,6 +40,7 @@ d. Suppose you have a released version B, with two preceeding
 
 
 Thus;
+
 1. The version most probably retrieved is always stored first.
 
 2. All versions must have unique and increasing versionId's. They
