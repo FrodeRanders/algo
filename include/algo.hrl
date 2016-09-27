@@ -298,7 +298,8 @@
             resourceId,
             type = file,
             mimeType = "application/octet-stream",
-            size = 0
+            size = 0,
+            digest = ""
         }).
 
 

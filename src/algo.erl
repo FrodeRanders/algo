@@ -558,5 +558,5 @@ synchronous_liquidate(nil) ->
     ?PRINT("Ignoring liquidation~n", []), 
     ok;
 synchronous_liquidate(_Version) ->
-    ?PRINT("Can not liquidate unknown ~p~n", [Version]), 
+    ?PRINT("Can not liquidate unknown ~p~n", [_Version]), 
     ok.

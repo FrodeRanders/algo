@@ -73,7 +73,7 @@
 %%% 1. The version most probably retrieved is always stored first.
 %%%
 %%% 2. All versions must have unique and increasing versionId's. They
-%%%    do not have to be in a strict incremental sequece.
+%%%    do not have to be in a strict incremental sequence.
 %%%
 %%% 3. Generally the latest version (highest versionId) is stored first
 %%%    in the list and the list is sorted on decreasing versionId.
@@ -207,7 +207,7 @@ incr_version(Version) ->
 %% add_version/2
 %%
 %% Adds a new version to an algo, honouring the version
-%% status; wip, released, ...
+%% status; work-in-progress, released, ...
 %% --------------------------------------------------------------------
 -spec add_version( algo(), version() ) -> algo().
 add_version(Algo, Version) ->
