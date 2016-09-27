@@ -53,10 +53,10 @@ new(InstanceId, document) -> #algo{ref = ref(InstanceId), class = document}.
 %% --------------------------------------------------------------------
 -spec uuid() -> string(). % somewhat
 uuid() ->    
-    P1 = random:uniform(trunc(math:pow(2, 48))) - 1,    
-    P2 = random:uniform(trunc(math:pow(2, 12))) - 1,     
-    P3 = random:uniform(trunc(math:pow(2, 32))) - 1,     
-    P4 = random:uniform(trunc(math:pow(2, 30))) - 1,    
+    P1 = rand:uniform(trunc(math:pow(2, 48))) - 1,    
+    P2 = rand:uniform(trunc(math:pow(2, 12))) - 1,     
+    P3 = rand:uniform(trunc(math:pow(2, 32))) - 1,     
+    P4 = rand:uniform(trunc(math:pow(2, 30))) - 1,    
     <<P1:48, 4:4, P2:12, 2:2, P3:32, P4:30>>.    
 
 -type uuid() :: string().
